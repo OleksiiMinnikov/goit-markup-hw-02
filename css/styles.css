@@ -6,23 +6,28 @@ body {
     background-color: #FFFFFF;
 }
 
+/* Web saite */
+/* Header */
 .header-logo{
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.3;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
 }
+.header-logo-hi{
+    color:#2E2F42
+}
 
 .header-item{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -32,7 +37,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -41,11 +46,13 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration-line: underline;
     color: #434455;
 }
+
+/* Hero_Section_1*/
 
 .hero{
     background-color: #2E2F42;
@@ -54,11 +61,13 @@ body {
 .hero-title{
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
+
+/* Button hero */
 
 .hero-button{
     background-color: #4D5AE5;
@@ -67,7 +76,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -75,15 +84,18 @@ body {
 }
 
 
-.hero-button:hover { 
+.hero-button:hover,
+.hero-button:focus { 
      background-color: #404BBF;
 }
+
+/* Styles text */
 
 .subtitle{
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -92,7 +104,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -100,12 +112,14 @@ body {
 .title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;    
 }
+
+/* Footer */
 
 .footer {
     background-color: #2E2F42;
@@ -115,7 +129,7 @@ body {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.3;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -128,7 +142,7 @@ body {
 .foote-text{
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
 }
