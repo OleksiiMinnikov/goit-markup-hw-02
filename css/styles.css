@@ -16,6 +16,33 @@ body {
     
 }
 
+
+/* Main styles text */
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
 .list {
     list-style: none;
 }
@@ -23,6 +50,7 @@ body {
 .link {
     text-decoration: none;
 }
+
 
 
 /* Web saite */
@@ -52,6 +80,11 @@ body {
     color: var(--navy_blue_dark)
 }
 
+.header-item:hover,
+.header-item:focus {
+    color: #404bbf;
+}
+
 .header-address{
     font-style: normal
 }
@@ -64,7 +97,7 @@ body {
     color: #434455;
 }
 .header-email:hover,
-.hero-button:focus {
+.header-email:focus {
     color: #404bbf;
 }
 
@@ -77,15 +110,14 @@ body {
     color: #434455;
 }
 .header-tel:hover,
-.hero-button:focus {
+.header-tel:focus {
     color: #404bbf;
 }
 
 /* Hero_Section_1*/
-.hero{
+.hero {
     background-color: #2e2f42;
 }
-
 .hero-title{
     font-weight: 700;
     font-size: 56px;
@@ -95,12 +127,11 @@ body {
     color: #FFFFFF;
 }
 
-/* Button */
 /* Button hero */
 .hero-button{
     background-color: #4D5AE5;
     cursor: pointer;
-    font-family: 'Roboto'sans-serif;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -132,31 +163,6 @@ body {
     color: #FFFFFF;
 }
 
-/* Main styles text */
-.subtitle{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;    
-}
 
 /* Section_4_Team */
 .team{
