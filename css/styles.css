@@ -1,4 +1,4 @@
-:root{
+/* :root{
     --iris_primary_brand: #4D5AE5;
     --ocean_pressed_state: #404BBF;
     --navy_blue_dark: #2e2f42;
@@ -7,7 +7,7 @@
     --light_slate_subtle_text: #8e8f99;
     --cornflower_accent: #e7e9fc;
     --cloud_light: #f4f4fd;
-}
+} */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -36,11 +36,11 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris_primary_brand);
+    color: #4D5AE5;
     text-decoration: none;
 }
 .header-logo-hi{
-    color: var(--navy_blue_dark);
+    color: #2e2f42;
 }
 
 .header-item{
@@ -61,7 +61,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate_text);
+    color: #434455;
 }
 .header-email:hover,
 .hero-button:focus {
@@ -74,7 +74,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration-line: underline;
-    color: var(--slate_text);
+    color: #434455;
 }
 .header-tel:hover,
 .hero-button:focus {
@@ -83,7 +83,7 @@ body {
 
 /* Hero_Section_1*/
 .hero{
-    background-color: var(--navy_blue_dark);
+    background-color: #2e2f42;
 }
 
 .hero-title{
@@ -98,7 +98,7 @@ body {
 /* Button */
 /* Button hero */
 .hero-button{
-    background-color: var(--iris_primary_brand);
+    background-color: #4D5AE5;
     cursor: pointer;
     font-family: 'Roboto'sans-serif;
     font-style: normal;
@@ -115,20 +115,20 @@ body {
 
 .hero-button:hover,
 .hero-button:focus { 
-     background-color: var(--iris_primary_brand);
+     background-color: #4D5AE5;
      color: #FFFFFF;
 }
 
 /* Button portfolio */
 .portfolio-button{
-    background: var(--cloud_light);
+    background: #f4f4fd;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus{
-    background: var(--ocean_pressed_state);
+    background: #404BBF;
     color: #FFFFFF;
 }
 
@@ -138,14 +138,14 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy_blue_dark);
+    color: #2e2f42;
 }
 
 .text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate_text);
+    color: #434455;
 }
 
 .title{
@@ -155,12 +155,12 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navy_blue_dark);    
+    color: #2e2f42;    
 }
 
 /* Section_4_Team */
 .team{
-    background-color: var(--cloud_light);
+    background-color: #f4f4fd;
 }
 
 .team-people{
@@ -169,7 +169,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: var(--navy_blue_dark);
+    background-color: #2e2f42;
 }
 
 .footer-logo {
@@ -181,16 +181,16 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris_primary_brand);
+    color: #4D5AE5;
 }
 
 .footer-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--cornflower_accent);
+    color: #e7e9fc;
 }
 
 .footer-logo-hi {
-    color: var(--cloud_light);
+    color: #f4f4fd;
 }
