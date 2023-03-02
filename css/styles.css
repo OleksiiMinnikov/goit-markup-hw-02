@@ -4,7 +4,16 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
+    
 }
+/* Removed the underline on the link */
+a {
+    text-decoration: none;
+}
+/* Removed points only from a certain list */
+ ul.no-dots {
+    list-style-type: none;
+ }
 
 /* Web saite */
 /* Header */
@@ -35,23 +44,28 @@ body {
 
 .header-email{
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.header-email:hover,
+.hero-button:focus {
+    color: #404BBF;
+}
 
 .header-tel{
     font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration-line: underline;
     color: #434455;
 }
-
+.header-tel:hover,
+.hero-button:focus {
+    color: #404BBF;
+}
 /* Hero_Section_1*/
 
 .hero{
@@ -66,7 +80,7 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-
+/* Button */
 /* Button hero */
 
 .hero-button{
@@ -81,18 +95,34 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 
 .hero-button:hover,
 .hero-button:focus { 
      background-color: #404BBF;
+     color: #FFFFFF;
 }
 
-/* Styles text */
+/* Button portfolio */
+.portfolio-button{
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus{
+    background: #404BBF;
+    color: #FFFFFF;
+    
+}
+
+/* Main styles text */
 
 .subtitle{
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -101,8 +131,6 @@ body {
 }
 
 .text{
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -117,6 +145,15 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2E2F42;    
+}
+
+/* Section_4_Team */
+
+.team{
+    background-color: #F4F4FD;
+}
+.team-people{
+    background-color: #FFFFFF;
 }
 
 /* Footer */
@@ -134,15 +171,15 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: #4D5AE5;
 }
 
-
-
-.foote-text{
-    font-weight: 400;
+.footer-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+}
+.footer-logo-hi {
+    color: #F4F4FD
 }
