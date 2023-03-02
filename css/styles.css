@@ -11,9 +11,11 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
     background-color: #FFFFFF;
     
 }
+
 
 /* Removed the underline on the link */
 a {
@@ -28,16 +30,17 @@ a {
 
 /* Web saite */
 /* Header */
-.header-logo{
-    font-family: 'Raleway';
+.header-logo:link {
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.33;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris_primary_brand);
+    text-decoration: none;
 }
 .header-logo-hi{
     color: var(--navy_blue_dark);
