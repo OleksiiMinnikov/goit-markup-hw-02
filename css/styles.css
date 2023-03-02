@@ -1,4 +1,14 @@
-/*  */
+:root{
+    --iris_primary_brand: #4D5AE5;
+    --ocean_pressed_state: #404BBF;
+    --navy_blue_dark: #2e2f42;
+    --green_success: #31d0aa;
+    --slate_text: #434455;
+    --light_slate_subtle_text: #8e8f99;
+    --cornflower_accent: #e7e9fc;
+    --cloud_light: #f4f4fd;
+}
+
 
 
 body {
@@ -26,10 +36,10 @@ a {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--iris_primary_brand);
 }
 .header-logo-hi{
-    color:#2E2F42
+    color: var(--navy_blue_dark);
 }
 
 .header-item{
@@ -38,7 +48,7 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--navy_blue_dark)
 }
 
 
@@ -47,11 +57,11 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--slate_text);
 }
 .header-email:hover,
 .hero-button:focus {
-    color: #404BBF;
+    color: var(--ocean_pressed_state);
 }
 
 .header-tel{
@@ -60,16 +70,16 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration-line: underline;
-    color: #434455;
+    color: var(--slate_text);
 }
 .header-tel:hover,
 .hero-button:focus {
-    color: #404BBF;
+    color: var(--ocean_pressed_state);
 }
 /* Hero_Section_1*/
 
 .hero{
-    background-color: #2E2F42;
+    background-color: var(--navy_blue_dark);
 }
 
 .hero-title{
@@ -84,7 +94,7 @@ a {
 /* Button hero */
 
 .hero-button{
-    background-color: #4D5AE5;
+    background-color: var(--iris_primary_brand);
     cursor: pointer;
     font-family: 'Roboto'sans-serif;
     font-style: normal;
@@ -102,20 +112,20 @@ a {
 
 .hero-button:hover,
 .hero-button:focus { 
-     background-color: #404BBF;
+     background-color: var(--iris_primary_brand);
      color: #FFFFFF;
 }
 
 /* Button portfolio */
 .portfolio-button{
-    background: #F4F4FD;
+    background: var(--cloud_light);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer;
 }
 .portfolio-button:hover,
 .portfolio-button:focus{
-    background: #404BBF;
+    background: var(--ocean_pressed_state);
     color: #FFFFFF;
     
 }
@@ -127,14 +137,14 @@ a {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--navy_blue_dark);
 }
 
 .text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: --;
 }
 
 .title{
@@ -144,13 +154,13 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;    
+    color: var(--navy_blue_dark);    
 }
 
 /* Section_4_Team */
 
 .team{
-    background-color: #F4F4FD;
+    background-color: var(--cloud_light);
 }
 .team-people{
     background-color: #FFFFFF;
@@ -159,7 +169,7 @@ a {
 /* Footer */
 
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--navy_blue_dark);
 }
 
 .footer-logo {
@@ -171,15 +181,15 @@ a {
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--iris_primary_brand);
 }
 
 .footer-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--cornflower_accent);
 }
 .footer-logo-hi {
-    color: #F4F4FD
+    color: var(--cloud_light);
 }
