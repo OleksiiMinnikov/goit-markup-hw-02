@@ -16,16 +16,9 @@ body {
     
 }
 
-
-/* Removed the underline on the link */
-a {
-    text-decoration: none;
+.list {
+    list-style: none;
 }
-
-/* Removed points only from a certain list */
- ul.no-dots {
-    list-style-type: none;
- }
 
 
 /* Web saite */
