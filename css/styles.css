@@ -16,8 +16,6 @@ body {
     
 }
 
-
-
 /*********** WEB SAITE ***********/
 
 /*********** STYLES TEXT***********/
@@ -51,6 +49,10 @@ body {
 }
 
 .link {
+    text-decoration: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -193,11 +195,23 @@ body {
 
 /*********** PAGEST PORTFOLIO ***********/
 /*********** BUTTON PORTFOLIO ***********/
-.portfolio-button {
+/* .portfolio-button {
+    font-family: inherit;
     background: #f4f4fd;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     cursor: pointer;
+} */
+
+.portfolio-button {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
 }
 
 .portfolio-button:hover,
@@ -205,3 +219,6 @@ body {
     background: #404BBF;
     color: #FFFFFF;
 }
+
+
+
