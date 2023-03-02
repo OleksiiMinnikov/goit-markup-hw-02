@@ -17,7 +17,10 @@ body {
 }
 
 
-/* Main styles text */
+
+/*********** WEB SAITE ***********/
+
+/*********** STYLES TEXT***********/
 .subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -51,10 +54,7 @@ body {
     text-decoration: none;
 }
 
-
-
-/* Web saite */
-/* Header */
+/*********** HEADER ***********/
 .header-logo:link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
@@ -67,11 +67,12 @@ body {
     color: #4D5AE5;
     text-decoration: none;
 }
-.header-logo-hi{
+
+.header-logo-hi {
     color: #2e2f42;
 }
 
-.header-item{
+.header-item {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -85,23 +86,24 @@ body {
     color: #404bbf;
 }
 
-.header-address{
+.header-address {
     font-style: normal
 }
 
-.header-email{
+.header-email {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+
 .header-email:hover,
 .header-email:focus {
     color: #404bbf;
 }
 
-.header-tel{
+.header-tel {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
@@ -109,12 +111,43 @@ body {
     text-decoration-line: underline;
     color: #434455;
 }
+
 .header-tel:hover,
 .header-tel:focus {
     color: #404bbf;
 }
 
-/* Hero_Section_1*/
+/*********** FOOTER ***********/
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #e7e9fc;
+}
+
+.footer-logo-hi {
+    color: #f4f4fd;
+}
+
+/*********** PAGEST INDEX ***********/
+/*********** SECTION_1_HERO ***********/
+
 .hero {
     background-color: #2e2f42;
 }
@@ -126,8 +159,7 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-
-/* Button hero */
+/*********** BUTTON_HERO ***********/
 .hero-button{
     background-color: #4D5AE5;
     cursor: pointer;
@@ -150,21 +182,7 @@ body {
      color: #FFFFFF;
 }
 
-/* Button portfolio */
-.portfolio-button{
-    background: #f4f4fd;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
-    cursor: pointer;
-}
-.portfolio-button:hover,
-.portfolio-button:focus{
-    background: #404BBF;
-    color: #FFFFFF;
-}
-
-
-/* Section_4_Team */
+/*********** SECTION_4_TEAM ***********/
 .team{
     background-color: #f4f4fd;
 }
@@ -173,30 +191,17 @@ body {
     background-color: #FFFFFF;
 }
 
-/* Footer */
-.footer {
-    background-color: #2e2f42;
+/*********** PAGEST PORTFOLIO ***********/
+/*********** BUTTON PORTFOLIO ***********/
+.portfolio-button {
+    background: #f4f4fd;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-.footer-logo {
-    font-family: 'Raleway' sans-serif; 
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
-
-.footer-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #e7e9fc;
-}
-
-.footer-logo-hi {
-    color: #f4f4fd;
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background: #404BBF;
+    color: #FFFFFF;
 }
