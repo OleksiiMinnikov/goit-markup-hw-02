@@ -41,7 +41,6 @@ body {
 }
 
 
-
 /*********** HEADER ***********/
 .header-logo:link {
     font-family: "Raleway", sans-serif;
@@ -75,7 +74,9 @@ body {
 }
 
 .header-address {
-    font-style: normal
+    font-style: normal;
+    color: #434455;
+
 }
 
 /*********** FOOTER ***********/
@@ -165,6 +166,7 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;
+    color: #4d5ae5;
 }
 
 .portfolio-button:hover,
