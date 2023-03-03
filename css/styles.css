@@ -65,7 +65,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
 }
 
 .header-item:hover,
@@ -77,6 +77,20 @@ body {
     font-style: normal;
     color: #434455;
 
+}
+
+.header-item-adress{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.header-item-adress:hover,
+.header-item-adress:focus {
+    color: #404bbf;
 }
 
 /*********** FOOTER ***********/
