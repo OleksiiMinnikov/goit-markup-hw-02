@@ -1,19 +1,7 @@
-/* :root{
-    --iris_primary_brand: #4D5AE5;
-    --ocean_pressed_state: #404BBF;
-    --navy_blue_dark: #2e2f42;
-    --green_success: #31d0aa;
-    --slate_text: #434455;
-    --light_slate_subtle_text: #8e8f99;
-    --cornflower_accent: #e7e9fc;
-    --cloud_light: #f4f4fd;
-} */
-
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
-    
+    background-color: #FFFFFF;    
 }
 
 /************ WEB SAITE ************/
