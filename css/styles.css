@@ -77,33 +77,6 @@ body {
 .header-address {
     font-style: normal
 }
-/* 
-.header-email {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.header-email:hover,
-.header-email:focus {
-    color: #404bbf;
-}
-
-.header-tel {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration-line: underline;
-    color: #434455;
-}
-
-.header-tel:hover,
-.header-tel:focus {
-    color: #404bbf;
-} */
 
 /*********** FOOTER ***********/
 .footer {
