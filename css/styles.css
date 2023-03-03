@@ -77,7 +77,7 @@ body {
 .header-address {
     font-style: normal
 }
-
+/* 
 .header-email {
     font-style: normal;
     font-size: 16px;
@@ -103,7 +103,7 @@ body {
 .header-tel:hover,
 .header-tel:focus {
     color: #404bbf;
-}
+} */
 
 /*********** FOOTER ***********/
 .footer {
