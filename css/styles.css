@@ -40,9 +40,7 @@ body {
     text-decoration: none;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 /*********** HEADER ***********/
 .header-logo:link {
@@ -63,12 +61,12 @@ a {
 }
 
 .header-item {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--navy_blue_dark)
+    color: #2e2f42;
 }
 
 .header-item:hover,
@@ -113,7 +111,7 @@ a {
 }
 
 .footer-logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
