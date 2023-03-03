@@ -90,6 +90,7 @@ body {
 
 .header-item-adress:hover,
 .header-item-adress:focus {
+    font-style: normal;
     color: #404bbf;
 }
 
