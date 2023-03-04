@@ -1,7 +1,26 @@
+:root{
+    --tex-color:#434455;
+    --title-color:#2e2f42;
+    --background-color: #FFFFFF;
+    --hero-titel: #FFFFFF;
+    --portfolio-bg-focus: #FFFFFF;
+    --hero-bg-text: #FFFFFF;
+    --subtitle-color: #2e2f42;
+    --header-logo-hi: #2e2f42;
+    --header-item: #2e2f42;
+    --background-color-hero: #2e2f42;
+    --background-color-footer: #2e2f42;
+    --ocean-color: #404bbf;
+    --iris-color: #4D5AE5;
+    --cornflower: #E7E9FC;
+    --cloud: #f4f4fd;
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;    
+    color: var(--tex-color);
+    background-color: var(--background-color);    
 }
 
 /************ WEB SAITE ************/
@@ -12,14 +31,14 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-}
+    color:var(--subtitle-color);
+}s
 
 .text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--tex-color);
 }
 
 .title {
@@ -29,7 +48,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--title-color);
 }
 
 .list {
@@ -46,87 +65,80 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--iris-color);
     text-decoration: none;
 }
 
 .header-logo-hi {
-    color: #2e2f42;
+    color: var(--header-logo-hi)
 }
 
 .header-item {
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--header-item);
 }
 
 .header-item:hover,
 .header-item:focus {
-    color: #404bbf;
+    color: var(--ocean-color);
 }
 
 .header-address {
     font-style: normal;
-    color: #434455;
+    color: var(--tex-color);
 
 }
 
 .header-item-adress{
-    font-family: inherit;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--tex-color);
 }
 
 .header-item-adress:hover,
 .header-item-adress:focus {
     font-style: normal;
-    color: #404bbf;
+    color: var(--ocean-color);
 }
 
 /*********** FOOTER ***********/
 .footer {
-    background-color: #2e2f42;
+    background-color: var(--background-color-footer);
 }
 
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--iris-color);
 }
 
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #e7e9fc;
+    color: var(--cornflower);
 }
 
 .footer-logo-hi {
-    color: #f4f4fd;
+    color: var(--cloud);
 }
 
 /*********** PAGEST INDEX ***********/
 /*********** SECTION_1_HERO ***********/
 
 .hero {
-    background-color: #2e2f42;
+    background-color: var(--background-color-hero);
 }
 .hero-title{
     font-weight: 700;
@@ -134,38 +146,34 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--hero-titel);
 }
 /*********** BUTTON_HERO ***********/
 .hero-button{
-    background-color: #4D5AE5;
+    background-color: var(--iris-color);
     cursor: pointer;
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--hero-bg-text);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
 .hero-button:hover,
 .hero-button:focus { 
-     background-color: #4D5AE5;
-     color: #FFFFFF;
+     background-color: var(--ocean-color);
 }
 
 /*********** SECTION_4_TEAM ***********/
 .team{
-    background-color: #f4f4fd;
+    background-color: var(--cloud);
 }
-
 .team-people{
-    background-color: #FFFFFF;
+    background-color: var(--background-color);
 }
 
 /*********** PAGEST PORTFOLIO ***********/
@@ -176,16 +184,16 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    align-items: center;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
     cursor: pointer;
-    color: #4d5ae5;
+    background-color: var(--cornflower);
+    color: var(--iris-color);
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-    background: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--ocean-color);
+    color: var(--portfolio-bg-focus);
 }
