@@ -32,14 +32,14 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--subtitle-color);
-}s
+}
 
 /* ПАРАГРАФ!!! */
 .text { 
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--tex-color);
+    color: #434455;
 }
 /* ****** */
 
