@@ -34,13 +34,16 @@ body {
     color:var(--subtitle-color);
 }s
 
-.text {
+/* ПАРАГРАФ!!! */
+.text { 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--tex-color);
 }
+/* ****** */
 
+/* ЗАГОЛОВОК */
 .title {
     font-weight: 700;
     font-size: 36px;
@@ -50,6 +53,7 @@ body {
     text-transform: capitalize;
     color: var(--title-color);
 }
+/* ****** */
 
 .list {
     list-style: none;
@@ -109,31 +113,6 @@ body {
     color: var(--ocean-color);
 }
 
-/*********** FOOTER ***********/
-.footer {
-    background-color: var(--background-color-footer);
-}
-
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris-color);
-}
-
-.footer-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--cornflower);
-}
-
-.footer-logo-hi {
-    color: var(--cloud);
-}
 
 /*********** PAGEST INDEX ***********/
 /*********** SECTION_1_HERO ***********/
@@ -177,7 +156,6 @@ body {
     background-color: var(--background-color);
 }
 
-
 /*********** PAGEST PORTFOLIO ***********/
 /*********** BUTTON PORTFOLIO ***********/
 
@@ -198,4 +176,30 @@ body {
 .portfolio-button:focus {
     background-color: var(--ocean-color);
     color: var(--portfolio-bg-focus);
+}
+
+/*********** FOOTER ***********/
+.footer {
+    background-color: var(--background-color-footer);
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--cornflower);
+}
+
+.footer-logo-hi {
+    color: var(--cloud);
 }
